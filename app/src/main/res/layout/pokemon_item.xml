@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_marginStart="8dp"
-    android:layout_marginTop="8dp"
-    android:layout_marginEnd="8dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    android:layout_marginEnd="16dp"
     app:layout_constraintEnd_toEndOf="parent"
     app:layout_constraintStart_toStartOf="parent"
     app:layout_constraintTop_toTopOf="parent"    >
@@ -30,7 +30,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
-            android:id="@+id/txNumber"
+            android:id="@+id/tvNumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#919191"
@@ -41,18 +41,18 @@
             tools:text="Nº 001" />
 
         <TextView
-            android:id="@+id/txName"
+            android:id="@+id/tvName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="#313131"
             android:textSize="24sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txNumber"
+            app:layout_constraintTop_toBottomOf="@+id/tvNumber"
             tools:text="Charmander" />
 
         <TextView
-            android:id="@+id/txType1"
+            android:id="@+id/tvType1"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginStart="60dp"
@@ -62,11 +62,11 @@
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/txName"
+            app:layout_constraintTop_toBottomOf="@+id/tvName"
             tools:text="Fire" />
 
         <TextView
-            android:id="@+id/txType2"
+            android:id="@+id/tvType2"
             android:layout_width="130dp"
             android:layout_height="wrap_content"
             android:layout_marginEnd="60dp"
@@ -76,8 +76,8 @@
             android:textColor="#FFFFFF"
             android:textSize="12sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/txType1"
-            app:layout_constraintTop_toBottomOf="@+id/txName"
+            app:layout_constraintStart_toEndOf="@+id/tvType1"
+            app:layout_constraintTop_toBottomOf="@+id/tvName"
             tools:text="Fire" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
